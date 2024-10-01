@@ -10,6 +10,10 @@ import UIKit
 class JokeCell: UITableViewCell {
     @IBOutlet weak var jokeLabel: UILabel!
     
+    @IBOutlet weak var punchLine: UILabel!
+    
+    @IBOutlet weak var jokeSetup: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

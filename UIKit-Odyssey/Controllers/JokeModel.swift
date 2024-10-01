@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct jokeTable{
+struct JokeModel:Codable{
     let id:Int
     let type:String
     let setup:String
